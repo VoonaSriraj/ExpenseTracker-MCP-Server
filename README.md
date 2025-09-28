@@ -43,7 +43,7 @@ A comprehensive expense tracking and financial management MCP (Model Context Pro
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker-mcp.git
+git clone https://github.com/VoonaSriraj/expense-tracker-mcp.git
 cd expense-tracker-mcp
 ```
 
@@ -86,10 +86,10 @@ Create a `categories.json` file in the project directory:
 ### 4. Run the MCP Server
 
 ```bash
-python expense_tracker.py
+uv run fastmcp install claude-desktop run main.py
 ```
 
-## Configuration
+## This Configuration will be automatically added after excuting above command
 
 ### Claude Desktop Integration
 
