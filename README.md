@@ -44,7 +44,6 @@ A comprehensive expense tracking and financial management MCP (Model Context Pro
 
 ```bash
 git clone https://github.com/VoonaSriraj/expense-tracker-mcp.git
-cd expense-tracker-mcp
 ```
 
 ### 2. Install Dependencies
