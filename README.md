@@ -102,7 +102,7 @@ Add the server to your Claude Desktop configuration file:
   "mcpServers": {
     "expense-tracker": {
       "command": "python",
-      "args": ["/absolute/path/to/expense_tracker.py"],
+      "args": ["/absolute/path/to/main.py"],
       "env": {}
     }
   }
@@ -116,7 +116,7 @@ Add the server to your Claude Desktop configuration file:
   "mcpServers": {
     "expense-tracker": {
       "command": "uv",
-      "args": ["run", "/absolute/path/to/expense_tracker.py"],
+      "args": ["run", "/absolute/path/to/main.py"],
       "env": {}
     }
   }
@@ -254,7 +254,7 @@ The server automatically creates and manages SQLite database tables:
 
 ```
 expense-tracker-mcp/
-├── expense_tracker.py      # Main MCP server implementation
+├── main.py      # Main MCP server implementation
 ├── expenses.db            # SQLite database (auto-generated)
 ├── categories.json        # Expense categories configuration
 ├── budgets.json          # Budget settings (auto-generated)
