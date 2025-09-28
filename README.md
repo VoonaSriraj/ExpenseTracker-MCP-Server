@@ -49,7 +49,7 @@ git clone https://github.com/VoonaSriraj/expense-tracker-mcp.git
 ### 2. Install Dependencies
 
 ```bash
-pip install fastmcp
+uv add fastmcp
 ```
 
 ### 3. Create Configuration Files
